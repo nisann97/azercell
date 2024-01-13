@@ -154,9 +154,10 @@ width: 18px;
 }
 
 #header-down .row .col-4 .logo img{
-    width: 144px;
-    height: 86px;
-    margin-left: 126px;
+    width: 19%;
+    height: 81%;
+    margin-left: 131px;
+    margin-top: 20px;
 }
 
 #header-down .row .col-8{
@@ -202,17 +203,18 @@ width: 18px;
     font-weight: 700px;
     font-family: azercell;
     text-align: left;
+    line-height: 58px;
     text-indent: 0.5px;
 }
 
 #header-down .bottom{
     width: 100%;
     height: 80px;
-background-color: black;
-margin-top: 120px;
-opacity: 0.5;
-display: flex;
-gap: 30px;
+    background-color: black;
+    margin-top: 120px;
+    opacity: 0.5;
+    display: flex;
+    gap: 30px;
 }
 
 #header-down .bottom .box1{
@@ -238,7 +240,6 @@ gap: 30px;
     height: 70px;
     border-bottom: 3.5px solid grey;
     padding: 15px;
-
 
 }
 
@@ -301,6 +302,11 @@ gap: 30px;
     font-size: 15px;
 }
 
+main{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
 #create{
     width: 100%;
     height: 500px;
@@ -336,9 +342,7 @@ gap: 30px;
     padding: 16px;
     justify-content: center;
     align-items: center;
-    text-align: center;
-
-    
+    text-align: center; 
 }
 
 #create .create-area .left-create a{
@@ -353,7 +357,7 @@ gap: 30px;
 
 #subscription{
     width: 100%;
-    height: 450px;
+    height: 600px;
 }
 
 #subscription .row{
@@ -408,7 +412,8 @@ gap: 30px;
 #subscription .subscription-boxes{
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 600px;
+    gap: 5px;
 }
 
 #subscription .subscription-boxes .left-boxes{
@@ -416,7 +421,7 @@ gap: 30px;
     background-color: rgba(245, 245, 245, 0.93);
     border-radius: 5px;
     width: 800px;
-    height: 500px;
+    height: 600px;
     margin-left: 140px;
     margin-top: 15px;
 }
@@ -427,15 +432,15 @@ gap: 30px;
     background-color: white; 
     margin-top: 12px;
     margin-left: 8px;
-    border-radius: 15px;
 }
 
 #subscription .subscription-boxes .left-boxes .left-box1 .box1-up{
     background-color: #5C2483;
     width: 100%;
-    height: 180px;
-    border-radius: 15px;
-    border-bottom-right-radius: none;
+    height: 160px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
 }
 #subscription .subscription-boxes .left-boxes .left-box1 .box1-up .text-up{
     display: flex;
@@ -449,15 +454,14 @@ gap: 30px;
 }
 
 #subscription .subscription-boxes .left-boxes .left-box1 .box1-up .text-up .text-box{
-    opacity: 0.5;
-    border-radius: 15px;
-    width: 140px;
+    border-radius: 25px;
+    width: 163px;
     height: 30px;
-    background-color: grey;
+    background-color: #80808073;
     margin: 30px;
     font-size: 10px;
     font-family: azercell-bold;
-    padding: 5px;
+    padding: 7px;
 }
 
 #subscription .subscription-boxes .left-boxes .left-box1 .box1-up .text-up .text-box span{
@@ -468,13 +472,11 @@ gap: 30px;
 }
 
 #subscription .subscription-boxes .left-boxes .left-box1 .box1-up .up-numbers{
-    background-color: grey;
-    border-radius: 10%;
+    background-color:  #80808073;
+    border-radius: 20px;
     width: 280px;
     height: 45px;
-    opacity: 0.5;
     margin-left: 20px;
-    padding: 10px;
 }
     
     #subscription .subscription-boxes .left-boxes .left-box1 .box1-up .up-numbers .numbers span{
@@ -491,16 +493,1222 @@ gap: 30px;
     gap: 15px;
 }
 #subscription .subscription-boxes .left-boxes .left-box1 .box1-up .up-numbers .numbers .numb2{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.643);
     height: 45px;
     width: 45px;
-    border-radius: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+#subscription .subscription-boxes .left-boxes .left-box1 .box1-up .up-numbers .numbers .numb1{
+    padding: 10px;
+    text-align: center;
+}
+
+#subscription .subscription-boxes .left-boxes .left-box1 .box1-up .up-numbers .numbers .numb3{
+    padding: 10px;
+    text-align: center;
+}
+#subscription .subscription-boxes .left-boxes .left-box1 .box1-up .up-numbers .numbers .numb4{
+    padding: 10px;
+    text-align: center;
+}
+#subscription .subscription-boxes .left-boxes .left-box1 .box1-up .up-numbers .numbers .numb5{
+    padding: 10px;
+    text-align: center;
 }
 
 #subscription .subscription-boxes .left-boxes .left-box1 .box1-down{
     margin: 20px;
 }
 
+#subscription .subscription-boxes .left-boxes .left-box2 .box1-down{
+    margin: 20px;
+}
+#subscription .subscription-boxes .left-boxes .box1-down .internet{
+    display: flex;
+    gap: 10px;
+}
+
+#subscription .subscription-boxes .left-boxes .box1-down .internet img{
+    width: 36px;
+    height: 36px;
+}
+
+#subscription .subscription-boxes .left-boxes .box1-down .text b{
+    color: black;
+    font-family: azercell;
+}
+
+#subscription .subscription-boxes .left-boxes .box1-down .text span:last-child{
+    color: grey;
+    font-family: azercell-thin;
+    font-size:12px;
+}
+
+#subscription .subscription-boxes .left-boxes .box1-down .minutes{
+    display: flex;
+    gap: 10px;
+    margin-left: 5px;
+    margin-top: 8px;
+
+}
+
+#subscription .subscription-boxes .left-boxes .box1-down .minutes i{
+    width: 36px;
+    height: 36px;
+    color: purple;
+    background-color: white;
+    
+}
+
+#subscription .subscription-boxes .left-boxes .box1-down .text b{
+    color: black;
+    font-family: azercell;
+}
+
+#subscription .subscription-boxes .left-boxes .box1-down .text span:last-child{
+    color: grey;
+    font-family: azercell-thin;
+    font-size:12px;
+}
+
+#subscription .subscription-boxes .left-boxes .box1-down .message{
+display: flex;
+gap: 10px;
+margin-top: 10px;
+}
+
+#subscription .subscription-boxes .left-boxes .box1-down .message b{
+    color: black;
+    font-family: azercell;
+    margin-left: 5px; 
+}
+
+#subscription .subscription-boxes .left-boxes .box1-down .message .logos{
+    display:flex;
+    
+}
+
+#subscription .subscription-boxes .left-boxes .box1-down .message img:first-child{
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+}
+
+#subscription .subscription-boxes .left-boxes .box1-down .message img:last-child{
+    width: 30px;
+    height: 30px;
+}
+
+#subscription .subscription-boxes .left-boxes .box1-down .text-down{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 6px;
+    
+}
+
+#subscription .subscription-boxes .left-boxes .box1-down .text-down p{
+    color: grey;
+    font-family: azercell-thin;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+#subscription .subscription-boxes .left-boxes .down-boxes{
+    display: flex;
+    gap: 2px;
+}
+
+#subscription .subscription-boxes .left-boxes .down-boxes .down-box1{
+    margin-left: 10px;
+    background-color: orangered;
+    border-radius: 25px;
+    width: 153px;
+    height: 34px;
+    font-family: azercell;
+    margin-top: 10px;
+    padding: 7px;
+    text-align: center;
+}
+
+#subscription .subscription-boxes .left-boxes .down-boxes .down-box1 a{
+    text-decoration: none;
+    color: white;
+    font-family: azercell;
+}
+
+#subscription .subscription-boxes .left-boxes .down-boxes .down-box2{
+    margin-left: 10px;
+    background-color: #ef480a3b;
+    border-radius: 25px;
+    width: 153px;
+    height: 34px;
+    font-family: azercell;
+    margin-top: 10px;
+    padding: 7px;   
+    text-align: center;
+}
+
+#subscription .subscription-boxes .left-boxes .down-boxes .down-box2 a{
+    text-decoration: none;
+    color: #f67031;
+    font-family: azercell;
+}
+
+#subscription .subscription-boxes .left-boxes .left-box2{
+    width: 40%;
+    height: 480px;
+    background-color: white; 
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+#subscription .subscription-boxes .left-boxes .left-box2 .box1-up{
+    background-color: #5C2483;
+    width: 100%;
+    height: 160px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#subscription .subscription-boxes .left-boxes .left-box2 .box1-up .text-up{
+    display: flex;
+}
+
+#subscription .subscription-boxes .left-boxes .left-box2 .box1-up .text-up h3{
+    color: white;
+    margin: 30px;
+    font-family: azercell-bold;
+    font-size: 23px;
+}
+
+#subscription .subscription-boxes .left-boxes .left-box2 .box1-up .text-up .text-box{
+    border-radius: 25px;
+    width: 163px;
+    height: 30px;
+    background-color: #80808073;
+    margin: 30px;
+    font-size: 10px;
+    font-family: azercell-bold;
+    padding: 7px;
+}
+
+#subscription .subscription-boxes .left-boxes .left-box2 .box1-up .text-up .text-box span{
+    color: white;
+    font-size: 13px;
+    font-family: azercell-bold;
+    margin-left: 5px;
+}
+
+#subscription .subscription-boxes .left-boxes .left-box2 .box1-up .up-numbers{
+    background-color: #80808073;
+    border-radius: 10px;
+    width: 163px;
+    height: 45px;
+    margin-left: 20px;
+}
+    
+    #subscription .subscription-boxes .left-boxes .left-box2 .box1-up .up-numbers .numbers span{
+  color: white;
+}
+
+
+#subscription .subscription-boxes .left-boxes .left-box2 .box1-up .up-numbers .numbers span:nth-child(){
+    color: purple;
+}
+   
+#subscription .subscription-boxes .left-boxes .left-box2 .box1-up .up-numbers .numbers{
+    display: flex;
+    gap: 15px;
+}
+#subscription .subscription-boxes .left-boxes .left-box2 .box1-up .up-numbers .numbers .numb2{
+    background-color: rgba(255, 255, 255, 0.643);
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+#subscription .subscription-boxes .left-boxes .left-box2 .box1-up .up-numbers .numbers .numb1{
+    padding: 10px;
+    text-align: center;
+}
+
+#subscription .subscription-boxes .left-boxes .left-box2 .box1-up .up-numbers .numbers .numb3{
+    padding: 10px;
+    text-align: center;
+}
+
+#azercell-phone-number{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#azercell-phone-number .col-6{
+    width: 50%;
+}
+
+#azercell-phone-number .col-6 h1{
+    font-family: azercell;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+
+#azercell-phone-number .col-6 .choose-number{
+    background-color: rgb(248, 85, 26);
+    border-radius: 25px;
+    width: 185px;
+    height: 50px;
+    margin-left: 140px;
+    font-family: azercell;
+    margin-top: 65px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#azercell-phone-number .col-6 .choose-number a{
+    text-decoration: none;
+    color: white;
+    font-family: azercell;
+    font-size: 14px;
+}
+
+#azercell-apps{
+    width: 100%;
+    height: 500px;
+}
+
+#azercell-apps .row{
+    display: flex;
+    height: 60px;
+}
+
+#azercell-apps .row .col-10{
+    width: 83.33%;
+    margin-left: 140px;
+}
+
+#azercell-apps .row .col-10 h3{
+font-family: azercell-bold;
+font-size: 30px;
+}
+#azercell-apps .row .col-2{
+    width: 16.66%;
+    margin-left: 200px;
+    margin-top: 15px;
+
+}
+
+#azercell-apps .row .col-2 a{
+    text-decoration: none;
+    color: grey;
+    font-family: azercell;
+}
+
+
+#azercell-apps .apps{
+    width: 100%;
+    height: 380px;
+}
+
+#azercell-apps .apps .boxes{
+    display: flex;
+    margin-left: 140px;
+    margin-top: 14px;
+    gap: 18px;
+}
+
+#azercell-apps .apps .boxes .litres .box1{
+    width: 170px;
+    height: 180px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#azercell-apps .apps .boxes  img{
+    width: 70px;
+    height: 70px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
 
 
 
+#azercell-apps .apps .boxes .stars{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+
+#azercell-apps .apps .boxes .stars span{
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: azercell;
+    color: orange;
+}
+#azercell-apps .apps .boxes .text{
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+
+#azercell-apps .apps .boxes .text b{
+    font-family: azercell;
+    font-size: 13px;
+}
+
+#azercell-apps .apps .boxes .text span.text2{
+    font-family: azercell;
+    font-weight: 200px;
+    color: grey;
+    font-size: 10px;
+}
+
+#azercell-apps .apps .boxes i.fa-solid{
+    color: orange;
+}
+
+#azercell-apps .apps .boxes  i.fa-regular{
+    color: rgb(209, 196, 196);
+}
+
+
+#azercell-apps .apps .boxes .outside-box1{
+    display: flex;
+    gap: 23px;
+    margin-left: 5px;
+    margin-top: 13px;
+}
+
+#azercell-apps .apps .boxes .outside-box1 span.text1{
+    color: rgb(152, 151, 151);
+    font-family: azercell;
+    font-size: 12px;
+    
+}
+
+#azercell-apps .apps .boxes .outside-box1 span.text2{
+    font-family: azercell-thin;
+    font-size: 13px;
+}
+
+#azercell-apps .apps .boxes .others{
+    width: 170px;
+    height: 168px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#azercell-apps .apps .boxes .others .box2 img{
+    width: 150px;
+    height: 65px;
+    margin-top: 5px;
+    margin-left: -38px;
+}
+
+#azercell-apps .apps .boxes .others .box3 img{
+    width: 37px;
+    height: 33px;
+    margin-top: 22px;
+    margin-left: 21px;
+}
+
+#azercell-apps .apps .boxes .others .box3 .stars3{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    display: flex;
+    margin-top: 25px;
+}
+
+#azercell-apps .apps .boxes .stars3 span{
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: azercell;
+    color: orange;
+}
+
+#azercell-apps .apps .boxes .outside-box2{
+    display: flex;
+    gap: 23px;
+    margin-left: 5px;
+    margin-top: 35px;
+}
+
+#azercell-apps .apps .boxes .outside-box2 span.text1{
+    color: rgb(152, 151, 151);
+    font-family: azercell;
+    font-size: 12px;
+    
+}
+
+#azercell-apps .apps .boxes .outside-box2 span.text2{
+    font-family: azercell-thin;
+    font-size: 13px;
+}
+
+#azercell-apps .apps .boxes .outside-box4{
+    display: flex;
+    gap: 23px;
+    margin-left: 5px;
+    margin-top: 35px;
+}
+
+#azercell-apps .apps .boxes .outside-box4 span.text1{
+    color: rgb(152, 151, 151);
+    font-family: azercell;
+    font-size: 12px;
+    
+}
+
+#azercell-apps .apps .boxes .outside-box4 span.text2{
+    font-family: azercell-thin;
+    font-size: 13px;
+}
+#azercell-apps .apps .boxes .outside-box3{
+    display: flex;
+    gap: 23px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+#azercell-apps .apps .boxes .outside-box3 span.text1{
+    color: rgb(152, 151, 151);
+    font-family: azercell;
+    font-size: 12px;
+    
+}
+
+#azercell-apps .apps .boxes .outside-box3 span.text2{
+    font-family: azercell-thin;
+    font-size: 13px;
+}
+
+#azercell-apps .apps .boxes .others .box4 img{
+    width: 121px;
+    height: 61px;
+    margin-top: 9px;
+    margin-left: -22px;
+}
+
+#azercell-apps .apps .boxes .others .box5 img{
+    width: 42px;
+    height: 33px;
+    margin-top: 21px;
+    margin-left: 14px;
+}
+
+#azercell-apps .apps .boxes .outside-box5{
+    display: flex;
+    gap: 23px;
+    margin-left: 5px;
+    margin-top: 49px;
+}
+
+#azercell-apps .apps .boxes .outside-box5 span.text1{
+    color: rgb(152, 151, 151);
+    font-family: azercell;
+    font-size: 12px;
+    
+}
+
+#azercell-apps .apps .boxes .outside-box5 span.text2{
+    font-family: azercell-thin;
+    font-size: 13px;
+}
+
+
+#your-app{
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+
+#your-app .col-4{
+    width: 33.3%;
+}
+
+#your-app .col-4 h1{
+    font-family: azercell;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-bottom: 10px;
+}
+
+#your-app .col-4 .left span.up{
+    margin-left: 140px;
+    font-family: azercell-thin;
+    color:grey; 
+    font-size: 15px;
+}
+
+#your-app .col-4 .apps{
+    display: flex;
+    gap: 15px;
+}
+
+#your-app .col-4 .apps .appstore{
+    background-color: white;
+    border-radius: 25px;
+    width: 138px;
+    height: 41px;
+    margin-left: 135px;
+    font-family: azercell;
+    margin-top: 30px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid  rgb(206, 206, 206);
+}
+
+#your-app .col-4 .apps a{
+font-family: azercell;
+text-decoration: none;
+color: black;
+margin-left: 5px;
+margin-top: 5px;
+}
+
+
+#your-app .col-4 .apps .googleplay{
+    background-color: white;
+    border-radius: 25px;
+    width: 138px;
+    height: 41px;
+    padding: 5px;
+    font-family: azercell;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid  rgb(206, 206, 206);
+
+}
+
+#your-app .col-4 .apps .googleplay img{
+width: 20px;
+height: auto;
+}
+
+#your-app .col-4 .info{
+    margin-top: 80px;
+    display: flex;
+    gap: 10px;
+}
+
+#your-app .col-4 .info img{
+    margin-left: 140px;
+    width: 26px;
+    height: 23px;
+    display: inline;
+}
+
+#your-app .col-4 .info span.down{
+    font-family: azercell-thin;
+    color:grey; 
+    font-size: 12px;
+}
+
+
+#your-app .col-4 .middle{
+    margin-top: -62px;
+}
+
+#your-app .col-4 .right .box1{
+    width: 331px;
+    height: 151px;
+    border-radius: 20px;
+    background-color: #650080f5;
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+#your-app .col-4 .right .box1 img{
+    width: 40px;
+    height: 39px;
+    color: grey;
+    margin-left: 22px;
+    margin-top: 60px;
+}
+
+#your-app .col-4 .right .box1 .text{
+margin-top: 60px;
+line-height: 20px;
+}
+
+#your-app .col-4 .right .box1 .text span.text1{
+    color: rgba(245, 245, 245, 0.933);
+    font-family: azercell;
+    font-size: 15px;
+}
+
+#your-app .col-4 .right .box1 .text span.text2{
+    color: rgb(159, 158, 158);
+    font-family: azercell-thin;
+    font-size: 13px;
+}
+
+
+#your-app .col-4 .right .box2{
+    width: 331px;
+    height: 151px;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+#your-app .col-4 .right .box2 img{
+    width: 40px;
+    height: 39px;
+    color: grey;
+    margin-left: 22px;
+    margin-top: 60px;
+}
+
+#your-app .col-4 .right .box2 .text{
+margin-top: 60px;
+line-height: 20px;
+}
+
+#your-app .col-4 .right .box2 .text span.text1{
+    color: black;
+    font-family: azercell;
+    font-size: 15px;
+}
+
+#your-app .col-4 .right .box2 .text span.text2{
+    color: rgb(159, 158, 158);
+    font-family: azercell-thin;
+    font-size: 13px;
+}
+
+#your-app .col-4 .right .box3{
+    width: 331px;
+    height: 151px;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+#your-app .col-4 .right .box3 img{
+    width: 40px;
+    height: 39px;
+    color: grey;
+    margin-left: 22px;
+    margin-top: 40px;
+}
+
+#your-app .col-4 .right .box3 .text{
+margin-top: 40px;
+line-height: 20px;
+}
+
+#your-app .col-4 .right .box3 .text span.text1{
+    color: black;
+    font-family: azercell;
+    font-size: 15px;
+}
+
+#your-app .col-4 .right .box3 .text span.text2{
+    color: rgb(159, 158, 158);
+    font-family: azercell-thin;
+    font-size: 13px;
+}
+
+
+#fourg{
+    width: 100%;
+    height: 400px;
+    background-color: #4b1174;
+    padding: 10px;
+}
+
+#fourg .text{
+    width: 100%;
+    height: 400px;
+    margin-top: 130px;
+    margin-left: 140px;
+    line-height: 60px;
+}
+#fourg h2{
+    color: #fdfdf8;
+    font-family: azercell;
+    font-size: 50px;
+}
+
+#fourg p{
+    font-family: azercell-thin;
+    color: grey;
+    font-size: 15px;
+}
+
+#bank-cards{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+#bank-cards .col-6{
+    width: 50%;
+    margin-top: 60px;
+}
+
+#bank-cards .col-6 .left{
+    margin-left: 140px;
+}
+#bank-cards .col-6 p{
+font-size: 13px;
+color: grey;
+font-family: azercell;
+}
+
+#bank-cards .col-6 h1{
+color: black;
+font-family: azercell-bold;
+font-size: 30px;
+}
+
+#bank-cards .col-6 .number{
+    margin-top: 30px;
+}
+
+#bank-cards .col-6 .number label{ 
+    color: grey;
+    font-family: azercell;
+    font-size: 12px;    
+}
+
+#bank-cards .col-6 .number input{ 
+    color: white;
+    width: 244px;
+    height: 36px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+
+#bank-cards .col-6 .amount-area .amount-input{
+margin-top: 30px;
+}
+
+#bank-cards .col-6 .amount-area label{ 
+    color: grey;
+    font-family: azercell;
+    font-size: 12px;    
+}
+
+#bank-cards .col-6 .amount-area input{ 
+    color: white;
+    width: 100px;
+    height: 36px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+#bank-cards .col-6 .amount-area{
+    display: flex;
+    gap: 20px;
+}
+
+#bank-cards .col-6 .amount-area .boxes{
+    display: flex;
+    gap: 10px;
+    margin-top: 45px;
+}
+
+#bank-cards .col-6 .amount-area .boxes .box1{
+    width: 40px;
+    height: 40px;
+    border-radius: 11px;
+    background-color: rgb(6, 160, 191);
+    padding: 10px;
+    cursor: pointer;
+}
+
+#bank-cards .col-6 .amount-area .boxes .box1 span{
+   color: white;
+   font-family: azercell-thin;
+   margin-left: 5px;
+}
+
+#bank-cards .col-6 .amount-area .boxes .box2{
+    width: 40px;
+    height: 40px;
+    border-radius: 11px;
+    background-color: rgb(220 217 217);
+    padding: 10px;
+    cursor: pointer;
+}
+
+#bank-cards .col-6 .amount-area .boxes .box2 span{
+   color: black;
+   font-family: azercell-thin;
+   margin-left: 5px;
+}
+
+#bank-cards .col-6 .amount-area .boxes .box3{
+    width: 40px;
+    height: 40px;
+    border-radius: 11px;
+    background-color: rgb(220 217 217);
+    padding: 10px;
+    cursor: pointer;
+}
+
+#bank-cards .col-6 .amount-area .boxes .box3 span{
+   color: black;
+   font-family: azercell-thin;
+   margin-left: 3px;
+}
+
+
+#bank-cards .col-6 .payment{
+    background-color: orangered;
+    border-radius: 25px;
+    width: 185px;
+    height: 50px;
+    margin-left: 5px;
+    font-family: azercell;
+    margin-top: 50px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+#bank-cards .col-6 .payment a{
+    color: white;
+    text-decoration: none;
+}
+
+#bank-cards .col-6 .payment-card{
+    width: 359px;
+    height: 200px;
+    border-radius: 14px;
+    background-color: #4b1174;
+    margin-top: 65px;
+    margin-left: -45px 
+}
+
+#bank-cards .col-6 .payment-card img{
+   width: 22%;
+   height: auto;
+   margin-left: 16px;
+   margin-top: 16px;
+}
+
+#bank-cards .col-6 .payment-card .chips{
+    display: flex;
+}
+
+
+#bank-cards .col-6 .payment-card .chips img{
+    width: 17%;
+    height: auto;
+    margin-left: 16px;
+    margin-top: -10px;
+ }
+
+ #bank-cards .col-6 .payment-card .chips i{
+    color: white;
+    margin-top: 15px;
+ }
+
+ #bank-cards .col-6 .payment-card label{
+    color: white;
+    font-family: azercell-thin;
+    font-size: 10px;
+    margin-left: 16px;
+ }
+
+ #bank-cards .col-6 .payment-card input{
+    margin-left: 16px;
+    background-color: white;
+    border-radius: 12px;
+    width: 313px;
+    height: 35px;
+    justify-content: center;
+    text-align: center;
+ }
+
+ #bank-cards .col-6 .payment-card .card-down{
+    display: flex;
+ }
+
+ #bank-cards .col-6 .payment-card .text p:first-child{
+    font-family: azercell;
+    font-size: 9px;
+    color: grey;
+    margin-left: 16px;
+    margin-top: 12px;
+ }
+
+ #bank-cards .col-6 .payment-card .text p:last-child{
+    font-family: azercell;
+    font-size: 12px;
+    color: white;
+    margin-left: 16px;
+ }
+
+ #bank-cards .col-6 .payment-card .logos{
+    display: flex;
+ }
+
+
+ #bank-cards .col-6 .payment-card .logos img:first-child{
+    width: 48px;
+    height: 27px;
+    margin-left: 187px;
+    margin-top: 8px;
+ }
+
+ #bank-cards .col-6 .payment-card .logos img:last-child{
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+ }
+
+
+ footer{
+    background-color: black;
+    width: 100%;
+    height: 650px;
+}
+#footer-up  .row{
+    display: flex;
+}
+
+
+#footer-up .col-2{
+    width: 16.66%;
+    height: 80px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+#footer-up .col-2 .logo-lang img.logo{
+    display: block;
+    width: 48%;
+    height: 91%;
+    margin-left: 99px;
+    margin-top: 45px;
+}
+
+#footer-up .col-2 .logo-lang img{
+    width: 24px;
+    height: 18px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#footer-up .col-2 .logo-lang span{
+    color: rgba(208, 203, 203, 0.999);
+    font-family: azercell-thin;
+    margin-left: 99px;
+    font-size: 15px;
+}
+
+#footer-up .col-2 .logo-lang .fa-solid.fa-caret-down{
+    color: grey;
+    margin-left: 13px;
+}
+
+#footer-up .col-10{
+    width: 83.33%;
+}
+
+#footer-up .col-10 .footer-navbar{
+    display: flex;
+}
+
+
+#footer-up .col-10 .footer-navbar .about-company{
+    margin-top: 50px;
+    margin-left: 52px;
+}
+
+#footer-up .col-10 .footer-navbar a.heading{
+    color: white;
+    font-family: azercell;
+    font-size: 14px;
+    text-decoration: none;
+ 
+}
+
+#footer-up .col-10 .footer-navbar ul{
+    list-style: none;
+    gap: 25px;
+    margin-top: 10px;
+    line-height: 25px;      
+
+    
+} 
+
+
+#footer-up .col-10 .footer-navbar ul li a{
+    text-decoration: none;
+    color: rgba(208, 203, 203, 0.999);
+    font-family: azercell-thin;
+    font-size: 12px;
+}
+
+#footer-up .col-10 .footer-navbar .services{
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+#footer-up .col-10 .footer-navbar .azercell-apps{
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+#footer-up .col-10 .footer-navbar .packages{
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+#footer-up .col-10 .footer-navbar .support{
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+#footer-up .box{
+    width: 88%;
+    margin-left: 130px;
+    margin-top: 50px;
+    border-bottom: 0.5px solid grey;
+}
+
+#footer-middle .row{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+#footer-middle .row .col-2{
+    width: 16.66%;
+    margin-left: 138px;
+    margin-top: 23px;
+}
+
+#footer-middle .col-2 span.thin{
+    color: rgba(208, 203, 203, 0.999);
+    font-family: azercell-thin;
+    font-size: 15px;   
+}
+
+#footer-middle .col-2 span.bold{
+    color: white;
+    font-family: azercell-thin;
+    font-size: 15px;   
+    margin-left: 5px;
+}
+
+#footer-middle .col-5{
+    width: 41.66%;
+    margin-top: 23px;
+}
+
+#footer-middle .col-5 .apps{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#footer-middle .col-5 .text span{
+    color: rgb(174, 172, 172);
+    font-family: azercell-thin;
+    font-size: 12px;
+}
+
+#footer-middle .col-5 .apps .ios{
+    background-color:  rgb(90, 90, 90);
+    border-radius: 20%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+#footer-middle .apps a{
+    text-decoration: none;
+    color: rgb(169, 169, 169);
+    font-family: azercell-thin;
+    font-size: 12px;
+}
+
+#footer-middle .col-5 .apps .android{
+    background-color:  rgb(90, 90, 90);
+    border-radius: 20%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+#footer-middle .col-5 .apps .app-gallery{
+    background-color:  rgb(90, 90, 90);
+    border-radius: 20%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 8px;
+}
+
+#footer-middle .col-5 .text-2 span{
+    color: rgb(174, 172, 172);
+    font-family: azercell-thin;
+    font-size: 12px;
+}
+
+#footer-middle .col-5 .subscription input{
+background-color:  rgb(90, 90, 90);
+opacity: 0.5px;
+border-radius: 20%;
+padding: 10px;
+width: 160px;
+height: 30px;
+}
+
+#footer-down .row{
+    display: flex;
+    height: 40px;
+}
+
+#footer-down .row .col-6{
+    width: 50%;
+}
+
+#footer-down .row .col-6 .llc span{
+    color: rgba(208, 203, 203, 0.999);
+    font-size: 14px;
+    font-family: azercell-thin;
+    margin-left: 140px;    
+} 
